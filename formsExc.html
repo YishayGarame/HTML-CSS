@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/styleFormsExc.css" />
+    <!-- <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/milligram/1.4.1/milligram.css"
+    /> -->
+    <title>SignIn</title>
+  </head>
+  <body>
+    <form
+      class="form-signin"
+      action="https://formspree.io/f/xvodydew"
+      method="POST"
+    >
+      <h2>Please sign in</h2>
+      <div class="form-group">
+        <input
+          class="form-control"
+          type="text"
+          placeholder="Email address"
+          minlength="7"
+          maxlength="250"
+          autofocus
+          name="email"
+        />
+      </div>
+
+      <div class="form-group">
+        <input
+          class="form-control"
+          type="password"
+          placeholder="Password"
+          minlength="5"
+          maxlength="14"
+          autofocus
+          name="Password"
+        />
+      </div>
+      <div class="form-group">
+        <input type="checkbox" id="remember-me" />
+        <label class="label-inline" for="remember-me">Remember me</label>
+      </div>
+      <button class="signinButton">Sign in</button>
+      <p class="copyRight">Copyright &copy; 2021</p>
+    </form>
+  </body>
+</html>

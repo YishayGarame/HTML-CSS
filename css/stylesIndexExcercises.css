@@ -1,0 +1,105 @@
+body {
+  margin: 10px;
+}
+table,
+td,
+th {
+  border: 1px, solid, #c4dcf3;
+  border-left: 0;
+  border-right: 0;
+  border-collapse: collapse;
+}
+
+td,
+th {
+  padding: 10px;
+}
+
+th {
+  background-color: #427fef;
+  color: white;
+}
+tr:nth-child(odd) {
+  background-color: #eef7ff;
+}
+
+tfoot {
+  text-align: left;
+}
+
+.box {
+  width: 300px;
+  height: 300px;
+  background: tomato;
+  border-radius: 5%;
+  box-shadow: 20px 20px lightgray;
+}
+body {
+  margin: 10px;
+}
+
+img.peru {
+  width: 450px;
+  border-radius: 150px;
+  float: left;
+  margin-right: 10px;
+}
+img.salar {
+  width: 450px;
+  border-radius: 150px;
+  float: left;
+  margin-right: 10px;
+}
+img {
+  width: 300px;
+  border-radius: 100px;
+  float: left;
+  margin-right: 10px;
+}
+
+.username {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.css_h2 {
+  font-size: 50px;
+  font-style: bold;
+}
+.html_h2 {
+  font-size: 50px;
+  font-style: bold;
+}
+
+video {
+  width: 400px;
+}
+ul {
+  list-style-type: none;
+}
+table,
+td,
+th {
+  border: 1px solid grey;
+  border-collapse: collapse;
+  padding: 5px;
+}
+tfoot {
+  text-align: left;
+}
+.product {
+  background-color: gold;
+  width: 500px;
+}
+.highlight {
+  background-color: blue;
+}
+#exampleP {
+  color: brown;
+  font-weight: 6px;
+}
+
+p::first-letter {
+  font-size: 140%;
+  font-weight: bold;
+}

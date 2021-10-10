@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/styleFormsMosh.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/milligram/1.4.1/milligram.css"
+    />
+
+    <!-- <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU"
+      crossorigin="anonymous"
+    /> -->
+
+    <title>Forms</title>
+  </head>
+  <body>
+    <form>
+      <div>
+        <input type="checkbox" id="front-end" />
+        <label class="label-inline" for="front-end">Front end</label>
+      </div>
+      <input type="range" min="0" max="100" value="90" name="" id="" />
+      <br />
+      <input type="file" accept=".jpg" />
+      <br />
+      <fieldset>
+        <legend>Billing</legend>
+        <input type="text" />
+        <input type="text" />
+        <input type="text" />
+      </fieldset>
+      <section>
+        <h2>Payment</h2>
+        <input type="text" />
+        <input type="text" />
+        <input type="text" />
+      </section>
+      <br />
+      <!-- <input type="text" required maxlength="10" />
+      <button type="submit">Submit</button> -->
+      <br />
+      <!-- there is to have one form element -->
+      <form action="https://formspree.io/f/xnqlrgro" method="POST">
+        <input type="text" placeholder="Name" name="name" />
+        <input type="text" placeholder="Email" name="email" />
+        <button type="submit">Submit</button>
+        <input type="submit" value="Submit" />
+      </form>
+    </form>
+  </body>
+</html>
